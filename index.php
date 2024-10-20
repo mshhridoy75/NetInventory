@@ -114,7 +114,7 @@ $(document).ready(function() {
     $('#selectmanufacturer').select2();
     $('#referencelist').select2();
     $('#selectfirmware').select2();
-});
+});*/
 
 $('#selectmanufacturer').select2();
 $('#referencelist').select2();
@@ -248,6 +248,7 @@ $('#selectfirmware').change(function(){
 	});
 }); */
 
+/*
 $('#selectmanufacturer').change(function(){
     var selectedmanufacturer = $('#selectmanufacturer').val();
 
@@ -351,7 +352,7 @@ $('#selectfirmware').change(function(){
             }
         });
     }
-});
+});*/
 
 </script>
 

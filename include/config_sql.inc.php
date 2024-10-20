@@ -1,14 +1,14 @@
 <?php
 // Database settings
 function mysql_connect_AMSConfig() {
-try {
- 
-  $db =new PDO('mysql:host=172.31.254.120;dbname=AMSConfig;charset=utf8', 'netinventory_browser', 'zF5Pp@4X7tZJjNO-');
-}
-	catch(PDOException $e) {
-		$db = null;
-		echo 'ERREUR DB: ' . $e->getMessage();
-	}
-	return $db;
+    try {
+        // Change the DSN for localhost
+        $db = new PDO('mysql:host=localhost;dbname=netinventoryresults;charset=utf8', 'root', ''); // Use '' for no password
+        $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    } catch(PDOException $e) {
+        $db = null;
+        echo 'ERREUR DB: ' . $e->getMessage();
+    }
+    return $db;
 }
 ?>
