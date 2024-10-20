@@ -1,0 +1,292 @@
+h1
+{
+	color : #A20067;
+	font-size : 16pt;
+	font-weight : bold;
+	padding-bottom : 0px;
+	padding-top: 0px;
+	margin-top : 10px;
+	
+}
+h2
+{
+	
+	font-size : 10pt;
+	font-weight : bold;
+	padding-bottom : 5px;
+	padding-top: 5px;
+	margin-top : 5px;
+	margin-bottom : 5px;
+	padding-left: 15px;
+	background-color: #A20067;
+	color : white;
+	border-radius : 5px;
+	
+	
+}
+th
+{
+	background-color: #005eb8;
+	color: white;
+	font-size: 9pt;
+	vertical-align: center;
+	font-family: Arial;
+	
+}
+td
+{
+	white-space: nowrap;
+	font-size: 10pt;
+	font-family: Arial;
+}
+
+.row
+{
+	margin-top: 15px;
+}
+.panel-AMS
+{
+	background-color: #005eb8;
+	font-size: 14pt;
+	padding: 5px 15px;
+	border-bottom: 1px solid transparent;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	color: #fff;
+	border-color: #005eb8;
+}
+.panel-body
+{
+	font-weight : initial;
+}
+
+/* Gestion Calendar */
+.datepicker-switch
+{
+	background-color: #005EB8;
+	color: white;
+	font-size: 12pt;
+	vertical-align: center;
+	text-align: center;
+
+}
+
+.dow
+{
+	font-size: 10pt;
+	background-color: #A20067;
+}
+.today.day
+{
+	background-color: #A20067;
+}
+.disabled.day
+{
+	background-color: #87888A;
+}
+.day
+{
+	text-align: center;
+}
+/* Other */
+.conferror
+{
+	color: white;
+	background-color: #dd4b39;
+	font-weight: bold;
+}
+.conferror:hover
+{
+	color: black;
+	font-weight: bold;
+}
+/****/
+.small-box .icon {
+  -webkit-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  position: absolute;
+  top: -5px;
+  right: 10px;
+  z-index: 0;
+  font-size: 90px;
+  color: rgba(0, 0, 0, 0.15);
+}
+.small-box:hover {
+  text-decoration: none;
+  color: #f9f9f9;
+}
+.small-box:hover .icon {
+  font-size: 95px;
+}
+.small-box.view
+{
+	margin-top: 10px;
+	margin-bottom:0px;
+}
+.small-box.download
+{
+	margin-top: 10px;
+	margin-bottom:0px;
+}
+.small-box.compare
+{
+	margin-top: 10px;
+	margin-bottom:0px;
+}
+.box-header
+{
+	background-color: #87888a;
+	color: white;
+	font-size: 14pt;
+	
+}
+.box-header.archives
+{
+	background-color: #005eb8;
+	color: white;
+	font-size: 14pt;
+	font-weight: bold;
+	text-align: center;	
+}
+.box-title
+{
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Gestion affichage Diff */
+.diff td{
+  vertical-align : top;
+  white-space    : pre;
+  white-space    : pre-wrap;
+  font-family    : monospace;
+}
+.diffUnmodified {
+	color: black;
+}
+.diffDeleted {
+	color : red;
+	text-decoration: line-through;
+}
+.diffInserted {
+	color : green;
+	font-weight: bold;
+}
+.diffBlank {
+	color : blue;
+}
+.big.fa {
+	font-size: 150pt;
+	text-align: center;
+	vertical-align : center;
+}
+.comparedate {
+	background-color: #0073b7;
+	color: white;
+	margin-bottom:5px;
+}
+.viewdldate {
+	background-color: #00a65a;
+	color: white;
+	margin-bottom:5px;
+}
+.choosenode {
+	background-color: #a20067;
+	color: white;
+	/*margin-bottom:5px;
+	margin-right:15px;
+	margin-left:15px;*/
+}
+.last_good_config
+{
+	background-color: #87888a;
+	color: white;
+	font-size: 14pt;
+}
+/* Menu */
+.header.menu
+{
+	background-color: #a20067;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+/* Archives Calendar */
+.archivemonth
+{
+	border: 1px solid #e1e1e1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left : 5px;
+	margin-right: 5px;
+	text-align: center;
+}
+.archivemonth.available
+{
+	background-color: #aecd60;
+	color: white;
+
+}
+.archivemonth.unavailable
+{
+	background-color: #c6c7c8;
+}
+.archivedl
+{
+	color:white;
+}
+
+.nb_devices
+{
+	font-size : 32pt;
+	font-weight: bold;
+	color: #005eb8;
+}
+.nb_components
+{
+	font-size : 24pt;
+	font-weight: bold;
+	color: #005eb8;
+}
+.infos_text
+{
+	font-size : 24pt;
+	font-weight: bold;
+	color: #a20067;
+}
+.infos_text_blue
+{
+	font-size : 24pt;
+	font-weight: bold;
+	color: #005eb8;
+}
+.vm_infos
+{
+	font-size : 9pt;
+}
+.vm_poweroff
+{
+	background-color: #e2b6b6;
+	font-size : 8pt;
+}
+.vm_poweron
+{
+	background-color: #b2dba4;
+	font-size : 8pt;
+}
+
+.vm_unknownstate
+{
+	background-color: #a20067;
+	font-size : 8pt;
+	color: white;
+}
+li.active
+{
+	font-weight : bold;
+}
+img.logo-vm
+{
+	padding-top : 5px;
+}
