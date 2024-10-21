@@ -2,7 +2,7 @@
 // Database settings
 try {
 
-   $db =new PDO('mysql:host=172.31.254.120;dbname=AMSConfig;charset=utf8', 'netinventory_browser', 'zF5Pp@4X7tZJjNO-');
+   $db =new PDO('mysql:host=localhost;dbname=netinventoryresults;charset=utf8', 'root', '');
 }
 
 catch (PDOException $exception) {
